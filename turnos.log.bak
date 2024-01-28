@@ -1,0 +1,9 @@
+
+C:[13/10/2008 13:36:08.37][190.202.100.75][7] SELECT exp_e,c_uni_ca FROM dace002 WHERE ci_e='16395008'  [1][0] OK
+C:[13/10/2008 13:36:08.04][190.202.100.75][12] SELECT userid FROM usuarios WHERE userid='02-16395008' AND password='e9d8fd1a46b1cb02f90e7eb7e1c07377' [0][0] OK
+C:[13/10/2008 13:36:08.04][190.202.100.75][17] SELECT password FROM usuarios WHERE userid='dace' AND password='e9d8fd1a46b1cb02f90e7eb7e1c07377' [1][0] OK
+C:[13/10/2008 13:38:56.06][190.202.100.75][8] SELECT exp_e,carrera FROM dace002 a, tblaca010  WHERE ci_e='16395008' and a.c_uni_ca=b.c_uni_ca [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]01401 DLU ICN Invalid column name }
+C:[13/10/2008 13:38:56.97][190.202.100.75][14] SELECT userid FROM usuarios WHERE userid='' AND password='e9d8fd1a46b1cb02f90e7eb7e1c07377' [0][0] [MERANT][ODBC SQLBase driver][SQLBase]01401 DLU ICN Invalid column name 
+C:[13/10/2008 13:38:56.97][190.202.100.75][19] SELECT password FROM usuarios WHERE userid='dace' AND password='e9d8fd1a46b1cb02f90e7eb7e1c07377' [1][0] [MERANT][ODBC SQLBase driver][SQLBase]01401 DLU ICN Invalid column name 
+C:[13/10/2008 13:39:37.93][190.202.100.75][8] SELECT exp_e,carrera FROM dace002 a, tblaca010 b WHERE ci_e='16395008' and a.c_uni_ca=b.c_uni_ca [1][0] OK
+C:[13/10/2008 13:39:37.91][190.202.100.75][14] SELECT userid FROM usuarios WHERE userid='02-16395008' AND password='aa62f8527389d3b9531faad76d772b9f' [1][0] OK
